@@ -13,9 +13,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>parent_group</groupId>
-      <artifactId>B</artifactId>
-      <version>0.1-SNAPSHOT</version>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk-core</artifactId>
+      <version>1.11.844</version>
     </dependency>
 </dependencies>
 </project>

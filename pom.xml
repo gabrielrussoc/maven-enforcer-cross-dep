@@ -26,6 +26,7 @@
               </goals>
               <configuration>
                 <rules>
+                  <dependencyConvergence/>
                   <bannedDependencies>
                     <excludes>
                       <exclude>does.not.matter</exclude>
@@ -38,4 +39,13 @@
       </plugin>
       </plugins>
   </build>
+  <dependencyManagement>
+    <dependencies>
+    <dependency>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+        <version>1.2</version>
+    </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>

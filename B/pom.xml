@@ -10,4 +10,12 @@
   <artifactId>B</artifactId>
   <packaging>jar</packaging>
   <name>B</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk-core</artifactId>
+      <version>1.11.655</version>
+    </dependency>
+  </dependencies>
 </project>
